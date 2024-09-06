@@ -1,0 +1,16 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  
+    input, textarea {
+      padding: 10px;
+      border: 1px solid $secondary-color;
+      border-radius: 5px;
+    }
+  
+    button {
+      @extend .btn-primary;
+    }
+  }
+  

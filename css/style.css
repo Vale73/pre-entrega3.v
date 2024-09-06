@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #daa618;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+.btn-primary, form button {
+  background-color: #007bff;
+  color: #daa618;
+  transition: background-color 0.3s;
+}
+.btn-primary:hover, form button:hover {
+  background-color: #0062cc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #daa618;
+  border-radius: 5px;
+}
+.navbar {
+  background-color: #01575a;
+}
+.navbar .navbar-brand img {
+  width: 50px;
+}
+.navbar .nav-link {
+  color: #daa618;
+  transition: color 0.3s;
+}
+.navbar .nav-link:hover {
+  color: #efcb69;
+}
+
+.carousel .carousel-item {
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s ease-in-out;
+}
+
+footer {
+  background-color: #002628;
+  color: #daa618;
+  text-align: center;
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.grid-container .grid-item {
+  background-color: #01575a;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.header {
+  background-color: rgb(20, 129, 192);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header h1 {
+  color: #daa618;
+  text-shadow: 2px 2px 4px rgba(218, 132, 4, 0.8);
+}
+
+main {
+  padding: 40px;
+  background: rgba(88, 88, 88, 0.7);
+  color: #daa618;
+  border-radius: 10px;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.gradient-text {
+  background: linear-gradient(45deg, #f8c471, #e67e22, #f8c471);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientAnimation 5s ease infinite;
+}
+
+body {
+  background-color: #5c6a75;
+  color: #f3f3f2;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

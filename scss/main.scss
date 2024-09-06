@@ -1,0 +1,23 @@
+@import 'bases/variables';
+@import 'bases/reset';
+@import 'bases/tipografia';
+
+@import 'components/buttons';
+@import 'components/formularios';
+@import 'components/navbar';
+
+@import 'layout/carrusel';
+@import 'layout/footer';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/main';
+
+@import 'utilidades/animaciones';
+@import 'utilidades/mixins';
+
+body {
+    background-color: #5c6a75; // 
+    color: #f3f3f2; 
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+  }

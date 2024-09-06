@@ -1,0 +1,10 @@
+.btn-primary {
+    background-color: $btn-bg;
+    color: $secondary-color;
+    transition: background-color $transition-time;
+  
+    &:hover {
+      background-color: $btn-hover-bg;
+    }
+  }
+  

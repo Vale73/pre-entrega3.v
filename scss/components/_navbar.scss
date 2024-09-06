@@ -1,0 +1,20 @@
+.navbar {
+    background-color: $primary-color;
+  
+    .navbar-brand {
+      img {
+        width: 50px;
+      }
+    }
+  
+    .nav-link {
+      color: $secondary-color;
+      transition: color $transition-time;
+  
+      &:hover {
+        color: lighten($secondary-color, 20%);
+      }
+    }
+  }
+  
+  
