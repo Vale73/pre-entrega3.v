@@ -116,4 +116,84 @@ body {
   font-family: Arial, sans-serif;
 }
 
+
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+
+  background-color: #2c2c2c; 
+  color: #f8f9fa; 
+  border: 1px solid #444; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+
+.card .btn {
+  margin-top: auto;
+}
+
+
+
+.card-img-top {
+  width: 100%; 
+  height: 200px; 
+  object-fit: cover; 
+}
+
+
+
+
+a {
+  color: #17a2b8; 
+  text-decoration: none; 
+}
+
+a:hover {
+  color: #0d6efd; 
+  text-decoration: underline; 
+}
+
+
+.text-success, .text-primary {
+  color: #17a2b8 !important; 
+  font-weight: bold; 
+}
+
+.text-success:hover, .text-primary:hover {
+  color: #0d6efd !important; 
+}
+
+
+body {
+  background-color: #2c2c2c; 
+  color: #f8f9fa; 
+}
+
+
+h1, h2, p {
+  color: #f8f9fa; 
+}
+
+
+section {
+  padding: 20px;
+  background-color: #333333; 
+  border-radius: 8px; 
+  margin-bottom: 20px;
+}
+
+
 /*# sourceMappingURL=style.css.map */
